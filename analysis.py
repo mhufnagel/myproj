@@ -17,6 +17,7 @@ def CER(prediction, true_labels):
     containing the ground truth labels for the input array, organized in the
     same order.
 
+		-Modificado de novo-
   """
 
   errors = (prediction != true_labels).sum()
